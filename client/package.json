@@ -4,9 +4,9 @@
   "private": true,
   "description": "Real Estate CRM frontend (Next.js Pages Router + Tailwind + shadcn/ui)",
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start"
+    "dev": "node init && next dev",
+    "build": "node init && next build",
+    "start": "node init && next start"
   },
   "dependencies": {
     "class-variance-authority": "^0.7.1",
